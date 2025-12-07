@@ -38,7 +38,9 @@ To protect your API keys, the `Info.plist` containing the Developer Token is ign
 2. Duplicate it and rename the copy to `Info.plist`.
 3. Open `Info.plist` and replace `YOUR_DEVELOPER_TOKEN_HERE` with your actual Apple Music Developer Token.
 
-> **Note:** You can generate a developer token in the Apple Developer Portal.
+> **Tip:** We recommend using [amtn (Apple Music Token Node)](https://github.com/sheminusminus/apple-music-token-node) to easily generate your developer token.
+>
+> *Note: I am currently working on automatic token management for future updates.*
 
 ### 3. Build and Run
 Open `musicard.xcodeproj` in Xcode and run the app on your physical device (Camera access is required for scanning).
